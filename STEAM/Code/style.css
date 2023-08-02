@@ -89,7 +89,9 @@ li{
     font-size: 23px;
     cursor: pointer; 
 }
-
+.home{
+    margin-top: 55px;
+}
 .home-banner-img{
     object-fit: fill;
     position: relative;
@@ -149,17 +151,37 @@ li{
     width: 1200px;
     padding-top: 50px;
 }
-
+.medicines-content{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
 .medicines{
     margin-top: 4%;
 }
 .medicines-content-buttons button{
     background-color: white;
     border:solid 1px darkgrey;
-    width: 300px;
+    width: 378px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
 }
 .medicines-content-buttons button img{
     width: 40px;
     height: 40px;
+    margin-right: 20px;
+    float: left;
+}
 
+.info{
+    margin-top: 30px;
+    height: 300px;
+    background-color: blue;
+}
+
+.footer{
+    height: 80px;
+    background-color: darkblue;
 }
