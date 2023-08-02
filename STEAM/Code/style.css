@@ -90,18 +90,11 @@ li{
     cursor: pointer; 
 }
 
-.filler{
-    background-color: lightblue;
-    height: 2000px;  width: 2000px;
-}
-.home{
-    margin-top: 55px;
-}
-
 .home-banner-img{
     object-fit: fill;
     position: relative;
     width: 100%;
+    user-select: none;
 }
 .home-banner-overlay{
     position: absolute;
@@ -113,7 +106,15 @@ li{
     padding-top: 15px;
 }
 
+.home-banner-overlay-buttons{
+    display: inline-flex;
+    padding-right: 20px;
+}
 
+.home-banner-overlay-buttons img{
+    object-fit:contain;
+    height: 90px;
+}
 .home-banner-overlay-buttonsContainer button{
     background-color: white;
     padding: 10px;
@@ -121,4 +122,44 @@ li{
     height: 140px;
     border: solid darkgrey 1px;
     border-radius: 5px;
+    cursor: pointer;
+}
+.service-content{
+    padding-top: 10px;
+    display: inline-flex;
+}
+.service-buttons{
+    padding-right: 50px;
+}
+.service-content button{
+    border: none;
+    height: 88px;
+    width: 70px;
+    cursor: pointer;
+    background-color:white;
+}
+
+.service-content button img{
+    object-fit: contain;
+    height: 45px;
+    width: 45px;
+}
+.main{
+    margin: auto;
+    width: 1200px;
+    padding-top: 50px;
+}
+
+.medicines{
+    margin-top: 4%;
+}
+.medicines-content-buttons button{
+    background-color: white;
+    border:solid 1px darkgrey;
+    width: 300px;
+}
+.medicines-content-buttons button img{
+    width: 40px;
+    height: 40px;
+
 }
